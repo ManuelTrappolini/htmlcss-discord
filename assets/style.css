@@ -147,7 +147,6 @@ h1{
 }
 
 .open_your_browser{
-    /* color: white; */
     background-color: #23272A;
     color: white;
 
@@ -224,13 +223,11 @@ h1{
 
 .first_footer_box{
     width: 20%;
-    background-color: #F08080;
+    padding-top: 30px;
 }
 
 .second_footer_box{
-    background-color: #20B2AA;
     width: 10%;
-    border: 1px white dashed;
 }
 .foot{
     width: 100%vh;
@@ -254,4 +251,32 @@ h1{
     text-align: center;
 }
 
+.first_footer_box>h3{
+    color: #7289DA;
+    font-size: 25px;
+    padding-bottom: 20px;
+
+}
+
+.italian-flag{
+    height: 10px;
+}
+
+.first_footer_box>span{
+    font-size: 10px;
+    color: white;
+}
+
+.second_footer_box>h4{
+    color: #7289DA;
+    padding-top: 35px;
+    font-size: 12px;
+}
+
+.second_footer_box>a{
+    display: block;
+    padding-top: 10px;
+    color: white;
+}
+  
 /* #endregion footer */
