@@ -20,6 +20,7 @@ header{
     align-items: center;
     justify-content: center;
 }
+
 /* #endregion common */
 
 /* #region debug */
@@ -98,7 +99,6 @@ a{
 
 .second_box{
     width: 40%;
-    background-color: #1E90FF;
 }
 
 .third_box{
@@ -172,6 +172,7 @@ h1{
 .third_box>p{
     line-height: 25px;
 }
+
 /* #endregion main */
 
 /* #region footer */
