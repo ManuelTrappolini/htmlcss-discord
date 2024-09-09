@@ -222,12 +222,6 @@ h1{
     display: flex;
     align-items: flex-start;
     padding-top: 10px;
-
-    /* border-bottom: 1px solid #7289DA; */
-}
-
-.h90{
-    height: 90%;
 }
 
 .first_footer_box{
@@ -237,9 +231,6 @@ h1{
 
 .second_footer_box{
     width: 10%;
-}
-.foot{
-    width: 100%vh;
 }
 
 .last_box{
