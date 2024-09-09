@@ -1,0 +1,141 @@
+/* #region common */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header{
+    width: 100%vh;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.container{
+    width: 100%vh;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* #endregion common */
+
+/* #region debug */
+.debug{
+    border: 1px dashed;
+}
+.debug header{
+    background-color: #ADD8E6;
+}
+.debug .first{
+    background-color: #00008B;
+}
+/* #endregion debug */
+
+/* #region header */
+.logo, .login{
+    width: 10%;
+    height: 30px;
+    background-color:#DAA520;
+    padding: 4px;
+}
+
+.link{
+    width: 40%;
+    height: 30px;
+    background-color:#DAA520;
+    text-align: center;
+    padding: 4px;
+}
+
+.login{
+    text-align: end;
+}
+
+/* #endregion header */
+
+/* #region main */
+
+
+.third,.fifth{
+    background-color: #D3D3D3;
+}
+
+.fifth{
+    height: 800px;
+}
+
+.main_box{
+    height: 80%;
+    width: 50%;
+    background-color: #EE82EE;
+}
+
+.h80{
+    height: 80%;
+}
+
+.second_box{
+    width: 40%;
+    background-color: #1E90FF;
+}
+
+.third_box{
+    width: 20%;
+    background-color: #FFC0CB;
+}
+
+.fourth_box{
+    background-color: #228B22;
+    width: 60%;
+    height: 720px;
+}
+
+/* #endregion main */
+
+/* #region footer */
+.bg-grey{
+    background-color: #23272A;
+    border-bottom: 3px solid #D9D9D9;
+    display: flex;
+    align-items: flex-start;
+    padding-top: 10px;
+}
+
+.h90{
+    height: 90%;
+}
+
+.first_footer_box{
+    width: 20%;
+    background-color: #F08080;
+}
+
+.second_footer_box{
+    background-color: #20B2AA;
+    width: 10%;
+    border: 1px white dashed;
+}
+.foot{
+    width: 100%vh;
+    height: 80px;
+    border-bottom: 3px solid #D9D9D9;
+}
+
+.last_box{
+    width: 60%;
+    height: 100%;
+    background-color: #7FFFD4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.last_logo,.button{
+    background-color: #FFB6C1;
+    width: 10%;
+    height: 30%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+/* #endregion footer */
