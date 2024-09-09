@@ -15,7 +15,7 @@ header{
 }
 .container{
     width: 100%vh;
-    height: 400px;
+    padding: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -84,8 +84,16 @@ a{
     background-color: #F6F6F6;
 }
 
-.fifth{
-    height: 800px;
+.bg-wave{
+    background-image: url(../img/wave.svg);
+    height: 100px;
+    opacity: 0.03;
+}
+
+.reverse{
+
+    transform: rotate(180deg);
+    background-color: white;
 }
 
 .main_box{
@@ -232,7 +240,6 @@ h1{
 }
 .foot{
     width: 100%vh;
-    height: 80px;
 }
 
 .last_box{
@@ -243,7 +250,9 @@ h1{
     justify-content: space-between;
     border-top: 1px solid #7289DA;
     padding: 10px 0;
+    padding-top: 25px;
 }
+
 .last_logo,.button{
     vertical-align: middle;
     text-align: center;
@@ -282,10 +291,10 @@ h1{
 
   .button{
     color: white;
-    font-size: 10px;
+    font-size: 8px;
     border: 1px solid none;
     background-color: #8EA1E1;
     border-radius: 30px;
-    padding: 10px;
+    padding: 8px;
   }
 /* #endregion footer */
